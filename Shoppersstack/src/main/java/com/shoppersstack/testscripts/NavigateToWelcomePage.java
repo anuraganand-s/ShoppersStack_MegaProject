@@ -22,7 +22,7 @@ public class NavigateToWelcomePage {
 
 	@Test(priority = 3)
 	public void verifyPageTitle() {
-		String expectedtitle = "ShoppersStack";
+		String expectedtitle = "ShoppersStack";//tftrf
 		String actualTitle = driver.getTitle();
 		if (actualTitle.equals(expectedtitle)) {
 			Reporter.log(actualTitle);
