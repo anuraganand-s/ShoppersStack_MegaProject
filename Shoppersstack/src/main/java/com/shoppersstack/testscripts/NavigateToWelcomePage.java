@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class NavigateToWelcomePage {
+public class NavigateToWelcomePage {//abc
 	WebDriver driver;
 
 	@Test(priority = 1)
